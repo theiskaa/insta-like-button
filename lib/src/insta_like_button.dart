@@ -15,7 +15,6 @@ import 'package:flutter/material.dart';
 /// - `height`, `width`.
 /// - `onImageError`, `imageColorFilter`, `imageBoxfit`, `imageAlignment`, `imageScale`.
 /// ---
-/// We fuck everything
 class InstaLikeButton extends StatefulWidget {
   /// This property takes a photo, and builds the entire button on that photo.
   ///
