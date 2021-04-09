@@ -1,6 +1,6 @@
 name: insta_like_button
 description: A new Flutter package project.
-version: 0.0.1
+version: 0.1.0
 author:
 homepage:
 
@@ -15,9 +15,6 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_driver:
-    sdk: flutter
-  test: any
 
 flutter:
   assets:
