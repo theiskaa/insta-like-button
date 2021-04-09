@@ -37,8 +37,5 @@ void main() {
     expect(find.byType(GestureDetector), findsOneWidget);
     expect(find.byType(Container), findsOneWidget);
     expect(find.byType(AnimatedOpacity), findsOneWidget);
-
-    // await tester.pump();
-    // await tester.tap(find.byType(InstaLikeButton));
   });
 }
