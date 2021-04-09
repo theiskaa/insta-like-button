@@ -31,10 +31,8 @@ Now in your Dart code, you can use:
 import 'package:insta_like_button/insta_like_button.dart';
 ```
 ---
-## Overview
+## Usage & Overview
 <img src="https://raw.githubusercontent.com/theiskaa/insta-like-button/develop/example/overview/overview.gif" align = "right" height = "400px">
----
-## Usage 
 
 ### With required parameters.
 ```dart
