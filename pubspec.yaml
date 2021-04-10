@@ -1,8 +1,8 @@
 name: insta_like_button
 description: Instagram post style button/card made for flutter
 version: 0.1.0
-author:
-homepage:
+# author: Ismael Shakverdiev <st.bahahd@gmail.com> 
+homepage: https://github.com/theiskaa/insta-like-button
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
