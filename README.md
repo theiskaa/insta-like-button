@@ -1,7 +1,7 @@
 # Insta Like Button
 
 [![Package Version](https://img.shields.io/pub/v/insta_like_button?color=red)](https://github.com/lomsa-dev/insta_like_button "Published package version")
-[![LICENSE](https://img.shields.io/badge/License-MIT-red.svg)](https://github.com/lomsa-dev/http-mock-adapter#License "Project's LICENSE section")
+[![LICENSE](https://img.shields.io/badge/License-MIT-red.svg)](https://github.com/theiskaa/insta-like-button/blob/main/LICENSE "Project's LICENSE section")
 
 ---
 ## Installing
