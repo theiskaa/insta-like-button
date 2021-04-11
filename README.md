@@ -32,7 +32,7 @@ import 'package:insta_like_button/insta_like_button.dart';
 ```
 ---
 ## Usage & Overview
-<img src="https://raw.githubusercontent.com/theiskaa/insta-like-button/develop/example/overview/overview.gif" align = "right" height = "400px">
+<img src="https://raw.githubusercontent.com/theiskaa/insta-like-button/develop/example/overview/overview.gif" align = "right" height = "500px">
 
 ### With required parameters.
 ```dart
