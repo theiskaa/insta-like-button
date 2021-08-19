@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:insta_like_button/insta_like_button.dart';
 
-void main() {
-  runApp(App());
-}
+void main() => runApp(App());
 
 class App extends StatelessWidget {
   @override
@@ -40,7 +38,7 @@ class _HomeState extends State<Home> {
                 // Do something...
               },
             ),
-            SizedBox(height: 30),
+            const SizedBox(height: 30),
 
             /// With all parameters (Customized InstaLikeButton).
             InstaLikeButton(
@@ -54,12 +52,10 @@ class _HomeState extends State<Home> {
               curve: Curves.fastLinearToSlowEaseIn,
               height: 250,
               width: MediaQuery.of(context).size.width - 20,
-              duration: Duration(seconds: 1),
-              onImageError: (e, _) {
-                setState(() {
-                  image = AssetImage("example/overview/img.jpg");
-                });
-              },
+              duration: const Duration(seconds: 1),
+              onImageError: (e, _) => setState(
+                () => image = AssetImage("example/overview/img.jpg"),
+              ),
               imageAlignment: Alignment.topLeft,
               imageBoxfit: BoxFit.fill,
               imageScale: 2.0,
