@@ -4,6 +4,7 @@
 [![LICENSE](https://img.shields.io/badge/License-MIT-red.svg)](https://github.com/theiskaa/insta-like-button/blob/main/LICENSE "Project's LICENSE section")
 
 ---
+
 ## Installing
 
 ### Depend on it

@@ -4,27 +4,23 @@ import 'package:insta_like_button/insta_like_button.dart';
 
 void main() {
   InstaLikeButton instaLikeButton;
-  Widget mainWidget;
+  late Widget mainWidget;
 
   setUpAll(() {
     // Initilaze instaLikeButton.
     instaLikeButton = InstaLikeButton(
       image: AssetImage("example/overview/img.jpg"),
-      onChanged: () {
-        print("Liked!");
-      },
+      onChanged: () => print("Liked!"),
     );
 
     // Initilaze mainWidget.
     mainWidget = MaterialApp(
       title: "Insta like button",
-      home: Scaffold(
-        body: Center(child: instaLikeButton),
-      ),
+      home: Scaffold(body: Center(child: instaLikeButton)),
     );
   });
 
-  testWidgets('Opacity Button Test', (WidgetTester tester) async {
+  testWidgets('Insta like button test', (WidgetTester tester) async {
     await tester.pumpWidget(mainWidget);
 
     // MainWidget tests.
