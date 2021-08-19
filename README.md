@@ -13,7 +13,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  insta_like_button: ^0.1.0
+  insta_like_button: ^0.1.1
 ```
 
 ### Install it
@@ -58,7 +58,7 @@ InstaLikeButton(
   curve: Curves.fastLinearToSlowEaseIn,
   height: 200,
   width: MediaQuery.of(context).size.width - 20,
-  duration: Duration(seconds: 1),
+  duration: const Duration(seconds: 1),
   onImageError: (e, _) {
     // Do something...
   },
